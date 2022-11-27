@@ -10,46 +10,46 @@ import {
   List,
   HStack,
 } from '@chakra-ui/react';
-import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillSchedule, AiFillYoutube } from 'react-icons/ai';
+import { AiOutlineWhatsApp,  AiFillInstagram, AiFillSchedule, AiFillBook, AiFillHome,} from 'react-icons/ai';
 import { MdWeb } from 'react-icons/md';
 import { motion } from 'framer-motion';
 
 function App() {
   const links = [
     {
-      url: 'https://google.com',
-      icon: AiFillYoutube,
-      text: 'Youtube',
+      url: 'https://www.xiaohongshu.com/web-login/canvas?redirectPath=http%3A%2F%2Fwww.xiaohongshu.com%2Fuser%2Fprofile%2F6194e152000000001000685b%3Fxhsshare%3DCopyLink%26appuid%3D6194e152000000001000685b%26apptime%3D1669286864',
+      icon: AiFillBook,
+      text: '小红书',
       iconColor: 'red.500',
     },
     {
-      url: 'https://google.com',
-      icon: MdWeb,
-      text: 'Website',
+      url: 'https://wa.link/1ski6x',
+      icon: AiFillHome,
+      text: '想在地产赚钱或了解点我',
       iconColor: 'gray.900',
     },
     {
-      url: 'https://google.com',
-      icon: AiFillGithub,
-      text: 'Github',
-      iconColor: 'purple.800',
+      url: 'https://wa.me/message/D2RQQJCD7NBKO1',
+      icon: AiOutlineWhatsApp,
+      text: '找屋子点我',
+      iconColor: 'green.500',
     },
     {
-      url: 'https://google.com',
+      url: 'https://www.instagram.com/nokokjunhere/',
       icon: AiFillInstagram,
       text: 'Instagram',
-      iconColor: 'orange.600',
+      iconColor: '#E1306C',
     },
     {
-      url: 'https://google.com',
-      icon: AiFillFacebook,
-      text: 'Facebook',
-      iconColor: 'blue.500',
+      url: 'https://oxwhite.com/',
+      icon: MdWeb,
+      text: 'Ox-White 官網',
+      iconColor: 'gray.900',
     },
     {
-      url: 'https://google.com',
+      url: 'https://www.venturegrab.com/?gclid=CjwKCAiAyfybBhBKEiwAgtB7fgDW59JvN3G4HdMZbbC7YvKxOoGAtzjLPFFAuJgVbmS-E4LAjibWzBoCaKQQAvD_BwE',
       icon: AiFillSchedule,
-      text: 'Schedule With Me',
+      text: '想找生意/想卖生意 点我',
       iconColor: 'gray.800',
     },
   ];
@@ -87,7 +87,7 @@ function App() {
               animate={{x: "0px"}}
               transition="linear 0.1s"
             >
-              Keagan Roach
+              @DignityKing17
             </Text>
             <List
               as={motion.ul}
