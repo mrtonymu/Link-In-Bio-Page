@@ -25,7 +25,7 @@ function App() {
     {
       url: 'https://wa.link/1ski6x',
       icon: AiFillHome,
-      text: '想在地产赚钱或了解点我',
+      text: '想在地产赚钱点我',
       iconColor: 'gray.900',
     },
     {
